@@ -22,7 +22,7 @@ void insertar(struct Nodo *nodo, int dato) {
 
     // Si es mayor va a la derecha
     if (dato > nodo->dato) {
-        // Tienes espacio a la derecha?
+        // Tienes espacio a la derecha
         if (nodo->derecha == NULL) {
             nodo->derecha = nuevoNodo(dato);
         } else {
